@@ -12,21 +12,21 @@
     <title>Run SQL queries to explore the data :: AWS System Manager</title>
 
     
-    <link href="/css/nucleus.css?1754146100" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1754146100" rel="stylesheet">
-    <link href="/css/hybrid.css?1754146100" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1754146100" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1754146100" rel="stylesheet">
-    <link href="/css/auto-complete.css?1754146100" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1754146100" rel="stylesheet">
-    <link href="/css/theme.css?1754146100" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1754146100" rel="stylesheet">
+    <link href="/css/nucleus.css?1754160003" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1754160003" rel="stylesheet">
+    <link href="/css/hybrid.css?1754160003" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1754160003" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1754160003" rel="stylesheet">
+    <link href="/css/auto-complete.css?1754160003" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1754160003" rel="stylesheet">
+    <link href="/css/theme.css?1754160003" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1754160003" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1754146100" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1754160003" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1754146100"></script>
+    <script src="/js/jquery-3.3.1.min.js?1754160003"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1754146100"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1754146100"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1754160003"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1754160003"></script>
 <script type="text/javascript">
     
         var baseurl = "\/\/localhost:1313\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1754146100"></script>
+<script type="text/javascript" src="/js/search.js?1754160003"></script>
 
     
   </div>
@@ -1163,7 +1163,7 @@
 <li>Check number of yellow taxi trip records.</li>
 </ul>
 <p><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-SQL" data-lang="SQL"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#66d9ef">COUNT</span>(<span style="color:#f92672">*</span>) <span style="color:#e6db74">&#34;Count&#34;</span> <span style="color:#66d9ef">FROM</span> raw_yellow_tripdata;</span></span></code></pre></div>
-<img src="/images/3.exploring/14.png" alt=""></p>
+<img src="../../images/3.exploring/14.png" alt=""></p>
 <ul>
 <li>Explore data categories</li>
 </ul>
@@ -1171,17 +1171,17 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span>  raw_yellow_tripdata
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">GROUP</span> <span style="color:#66d9ef">BY</span> vendorid
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> <span style="color:#ae81ff">1</span>;</span></span></code></pre></div>
-<img src="/images/3.exploring/15.png" alt=""></p>
+<img src="../../images/3.exploring/15.png" alt=""></p>
 <p><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-SQL" data-lang="SQL"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> pulocationid, <span style="color:#66d9ef">COUNT</span>(<span style="color:#f92672">*</span>) <span style="color:#e6db74">&#34;Count&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span>   raw_yellow_tripdata
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">GROUP</span> <span style="color:#66d9ef">BY</span> pulocationid
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> <span style="color:#ae81ff">1</span>;</span></span></code></pre></div>
-<img src="/images/3.exploring/16.png" alt=""></p>
+<img src="../../images/3.exploring/16.png" alt=""></p>
 <p><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-SQL" data-lang="SQL"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> payment_type, <span style="color:#66d9ef">COUNT</span>(<span style="color:#f92672">*</span>) <span style="color:#e6db74">&#34;Count&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span>   raw_yellow_tripdata
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">GROUP</span> <span style="color:#66d9ef">BY</span> payment_type
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> <span style="color:#ae81ff">1</span>;</span></span></code></pre></div>
-<img src="/images/3.exploring/17.png" alt=""></p>
+<img src="../../images/3.exploring/17.png" alt=""></p>
 <ul>
 <li>Explore records with NULL Vendor ID.</li>
 </ul>
@@ -1189,7 +1189,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span>   raw_yellow_tripdata
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">WHERE</span>  vendorid <span style="color:#66d9ef">IS</span> <span style="color:#66d9ef">NULL</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">LIMIT</span> <span style="color:#ae81ff">100</span>;</span></span></code></pre></div>
-<img src="/images/3.exploring/18.png" alt=""></p>
+<img src="../../images/3.exploring/18.png" alt=""></p>
 <ul>
 <li>Explore records by time period.</li>
 </ul>
@@ -1197,14 +1197,14 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span>   raw_yellow_tripdata
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">GROUP</span> <span style="color:#66d9ef">BY</span> SUBSTR(tpep_pickup_datetime, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">7</span>) 
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> <span style="color:#ae81ff">1</span>;</span></span></code></pre></div>
-<img src="/images/3.exploring/19.png" alt=""></p>
+<img src="../../images/3.exploring/19.png" alt=""></p>
 <ul>
 <li>Count records that falls outside of year 2020.</li>
 </ul>
 <p><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-SQL" data-lang="SQL"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#66d9ef">COUNT</span>(<span style="color:#f92672">*</span>) <span style="color:#e6db74">&#34;Count&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span>   raw_yellow_tripdata 
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">WHERE</span>  SUBSTR(tpep_pickup_datetime, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">7</span>) <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">LIKE</span> <span style="color:#e6db74">&#39;2020%&#39;</span>;</span></span></code></pre></div>
-<img src="/images/3.exploring/20.png" alt=""></p>
+<img src="../../images/3.exploring/20.png" alt=""></p>
 <ul>
 <li>Count records with NULL values (based on Vendor ID) that falls within 2020.</li>
 </ul>
@@ -1212,7 +1212,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span>   raw_yellow_tripdata
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">WHERE</span>  vendorid <span style="color:#66d9ef">IS</span> <span style="color:#66d9ef">NULL</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">AND</span>    SUBSTR(tpep_pickup_datetime, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">7</span>) <span style="color:#66d9ef">LIKE</span> <span style="color:#e6db74">&#39;2020%&#39;</span>;</span></span></code></pre></div>
-<img src="/images/3.exploring/21.png" alt=""></p>
+<img src="../../images/3.exploring/21.png" alt=""></p>
 <ul>
 <li>Count records that falls in the last quarter of 2020, exclude records with missing Vendor ID.</li>
 </ul>
@@ -1220,7 +1220,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span>   raw_yellow_tripdata
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">WHERE</span>  vendorid <span style="color:#66d9ef">IS</span> <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">AND</span>    SUBSTR(tpep_pickup_datetime, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">7</span>) <span style="color:#66d9ef">LIKE</span> <span style="color:#e6db74">&#39;2020-1%&#39;</span>;</span></span></code></pre></div>
-<img src="/images/3.exploring/22.png" alt=""></p>
+<img src="../../images/3.exploring/22.png" alt=""></p>
 <ul>
 <li>Join taxi trips data with taxi zone look up table.</li>
 </ul>
@@ -1233,7 +1233,7 @@
 </span></span><span style="display:flex;"><span>       vendorid <span style="color:#66d9ef">IS</span> <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span> <span style="color:#66d9ef">AND</span>
 </span></span><span style="display:flex;"><span>       SUBSTR(tpep_pickup_datetime, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">7</span>) <span style="color:#66d9ef">LIKE</span> <span style="color:#e6db74">&#39;2020-1%&#39;</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">LIMIT</span> <span style="color:#ae81ff">100</span>;</span></span></code></pre></div>
-<img src="/images/3.exploring/23.png" alt=""></p>
+<img src="../../images/3.exploring/23.png" alt=""></p>
 <ul>
 <li>Count total joined records for the last quarter of 2020.</li>
 </ul>
@@ -1245,7 +1245,7 @@
 </span></span><span style="display:flex;"><span>       td.pulocationid <span style="color:#f92672">=</span> <span style="color:#66d9ef">do</span>.locationid <span style="color:#66d9ef">AND</span>
 </span></span><span style="display:flex;"><span>       vendorid <span style="color:#66d9ef">IS</span> <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span> <span style="color:#66d9ef">AND</span>
 </span></span><span style="display:flex;"><span>       SUBSTR(tpep_pickup_datetime, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">7</span>) <span style="color:#66d9ef">LIKE</span> <span style="color:#e6db74">&#39;2020-1%&#39;</span>;</span></span></code></pre></div>
-<img src="/images/3.exploring/24.png" alt=""></p>
+<img src="../../images/3.exploring/24.png" alt=""></p>
 
 
 
@@ -1820,19 +1820,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1754146101"></script>
-    <script src="/js/perfect-scrollbar.min.js?1754146101"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1754146101"></script>
-    <script src="/js/jquery.sticky.js?1754146101"></script>
-    <script src="/js/featherlight.min.js?1754146101"></script>
-    <script src="/js/highlight.pack.js?1754146101"></script>
+    <script src="/js/clipboard.min.js?1754160003"></script>
+    <script src="/js/perfect-scrollbar.min.js?1754160003"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1754160003"></script>
+    <script src="/js/jquery.sticky.js?1754160003"></script>
+    <script src="/js/featherlight.min.js?1754160003"></script>
+    <script src="/js/highlight.pack.js?1754160003"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1754146101"></script>
-    <script src="/js/learn.js?1754146101"></script>
-    <script src="/js/hugo-learn.js?1754146101"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1754160003"></script>
+    <script src="/js/learn.js?1754160003"></script>
+    <script src="/js/hugo-learn.js?1754160003"></script>
 
-    <link href="/mermaid/mermaid.css?1754146101" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1754146101"></script>
+    <link href="/mermaid/mermaid.css?1754160003" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1754160003"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

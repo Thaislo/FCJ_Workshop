@@ -17,9 +17,9 @@ pre : " <b> 4.8 </b> "
   - Remove the following **Source keys**:
     - `pulocationid`
     - `dolocationid`
-![](/images/4.transforming/29.png)
+![](../../images/4.transforming/29.png)
 - Remember to save your job.
-![](/images/4.transforming/30.png)
+![](../../images/4.transforming/30.png)
 #### Save Transformed Data to Amazon S3
 - Click on the **Target** tab and select **Amazon S3**.
 - Specify the following:
@@ -28,6 +28,6 @@ pre : " <b> 4.8 </b> "
     - **Format** – `Parquet`
     - **Compression Type** – `Snappy`
     - **S3 Target Location** – `s3://serverlessanalytics-[your-account-id]-transformed/nyc-taxi/yellow-tripdata/`
-![](/images/4.transforming/31.png)
+![](../../images/4.transforming/31.png)
 - Remember to save your job.
-![](/images/4.transforming/32.png)
+![](../../images/4.transforming/32.png)

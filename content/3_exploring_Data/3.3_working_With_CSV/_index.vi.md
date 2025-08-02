@@ -12,27 +12,27 @@ Các tệp CSV đôi khi có dấu ngoặc kép bao quanh các giá trị dữ l
 - Trên màn hình **Tables**, nhấn vào bảng `raw_taxi_zone_lookup`.
 - Nhấn **Actions**, sau đó chọn **Edit table**.
 
-![](/images/3.exploring/9.png)
+![](../../images/3.exploring/9.png)
 
 - Cập nhật trường **Serialization lib** thành `org.apache.hadoop.hive.serde2.OpenCSVSerde`.
 
-![](/images/3.exploring/10.png)
+![](../../images/3.exploring/10.png)
 
 - Xóa các tham số **Serde** hiện có, sau đó thêm các tham số sau:
   - `escapeChar`: nhập dấu gạch chéo ngược `\`
   - `quoteChar`: nhập dấu ngoặc kép `"`
   - `separatorChar`: nhập dấu phẩy `,`
 
-![](/images/3.exploring/11.png)
+![](../../images/3.exploring/11.png)
 
 - Nhấn **Save**.
 
-![](/images/3.exploring/12.png)
+![](../../images/3.exploring/12.png)
 
 - Quay lại **Athena console**.
 - Trên trang **Query editor**, nhấn vào biểu tượng menu ⋮ bên cạnh bảng `raw_taxi_zone_lookup`, rồi chọn **Preview table**.
 
-![](/images/3.exploring/13.png)
+![](../../images/3.exploring/13.png)
 
 {{% notice note%}}
 Tất cả giá trị kiểu chuỗi hiện không còn được bao quanh bởi dấu ngoặc kép.

@@ -12,21 +12,21 @@
     <title>Create a Glue Crawler :: AWS System Manager</title>
 
     
-    <link href="/css/nucleus.css?1754146100" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1754146100" rel="stylesheet">
-    <link href="/css/hybrid.css?1754146100" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1754146100" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1754146100" rel="stylesheet">
-    <link href="/css/auto-complete.css?1754146100" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1754146100" rel="stylesheet">
-    <link href="/css/theme.css?1754146100" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1754146100" rel="stylesheet">
+    <link href="/css/nucleus.css?1754160003" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1754160003" rel="stylesheet">
+    <link href="/css/hybrid.css?1754160003" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1754160003" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1754160003" rel="stylesheet">
+    <link href="/css/auto-complete.css?1754160003" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1754160003" rel="stylesheet">
+    <link href="/css/theme.css?1754160003" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1754160003" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1754146100" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1754160003" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1754146100"></script>
+    <script src="/js/jquery-3.3.1.min.js?1754160003"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1754146100"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1754146100"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1754160003"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1754160003"></script>
 <script type="text/javascript">
     
         var baseurl = "\/\/localhost:1313\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1754146100"></script>
+<script type="text/javascript" src="/js/search.js?1754160003"></script>
 
     
   </div>
@@ -1164,9 +1164,9 @@
 <li>Go to the <a href="https://ap-southeast-1.console.aws.amazon.com/glue/home?region=ap-southeast-1#/v2/getting-started">AWS Glue Console</a>.</li>
 <li>In the left navigation menu, click <strong>Crawlers</strong>.</li>
 <li>On the Crawlers page, click <strong>Create crawler</strong>.
-<img src="/images/2.discover/2.1-01.png" alt=""></li>
+<img src="../../images/2.discover/2.1-01.png" alt=""></li>
 <li>Set the name of the <strong>crawler</strong> to <code>nyc-taxi-crawler</code>, then click <strong>Next</strong>.
-<img src="/images/2.discover/2.1-02.png" alt=""></li>
+<img src="../../images/2.discover/2.1-02.png" alt=""></li>
 <li>On the <strong>Choose data sources and classifiers</strong> page, specify the following details, then click <strong>Next</strong>:
 <ul>
 <li>Click <strong>Add a data source</strong></li>
@@ -1175,29 +1175,29 @@
 <li>Include S3 path – <code>s3://serverlessanalytics[your-account-id]-raw/nyc-taxi/</code></li>
 <li>For <strong>Subsequent crawler runs</strong>, select <em>Crawl all sub-folders</em></li>
 <li>Then click <strong>Add an S3 data source.</strong>
-<img src="/images/2.discover/03.png" alt="">
-<img src="/images/2.discover/04.png" alt=""></li>
+<img src="../../images/2.discover/03.png" alt="">
+<img src="../../images/2.discover/04.png" alt=""></li>
 </ul>
 </li>
 <li>On the <strong>Configure security settings</strong> screen, choose <strong>ServerlessAnalyticsRole</strong> from <strong>Existing IAM role</strong>, then click <strong>Next</strong>.
-<img src="/images/2.discover/05.png" alt=""></li>
+<img src="../../images/2.discover/05.png" alt=""></li>
 <li>On the <strong>Set output and scheduling</strong> screen, click <strong>Add database</strong>.
 <ul>
 <li>Set the unique database name to <code>nyctaxi_db</code>, then click Create database.
-<img src="/images/2.discover/06.png" alt="">
-<img src="/images/2.discover/07.png" alt=""></li>
+<img src="../../images/2.discover/06.png" alt="">
+<img src="../../images/2.discover/07.png" alt=""></li>
 </ul>
 </li>
 <li>Return to the previous tab (<strong>Set output and scheduling</strong>), refresh the <strong>Target database</strong> selection, and choose the newly created database <code>nyctaxi_db</code>.
 <ul>
 <li>Enter <code>raw_</code> in the <strong>Table name prefix - optional</strong> field.</li>
 <li>For <strong>Crawler schedule</strong>, set the frequency to <em>On demand</em>, then click <strong>Next</strong>.
-<img src="/images/2.discover/08.png" alt=""></li>
+<img src="../../images/2.discover/08.png" alt=""></li>
 </ul>
 </li>
 <li>Review the <strong>crawler</strong> details, then click <strong>Create crawler</strong>.</li>
 <li>Successfully created.
-<img src="/images/2.discover/09.png" alt=""></li>
+<img src="../../images/2.discover/09.png" alt=""></li>
 </ul>
 
 
@@ -1770,19 +1770,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1754146101"></script>
-    <script src="/js/perfect-scrollbar.min.js?1754146101"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1754146101"></script>
-    <script src="/js/jquery.sticky.js?1754146101"></script>
-    <script src="/js/featherlight.min.js?1754146101"></script>
-    <script src="/js/highlight.pack.js?1754146101"></script>
+    <script src="/js/clipboard.min.js?1754160003"></script>
+    <script src="/js/perfect-scrollbar.min.js?1754160003"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1754160003"></script>
+    <script src="/js/jquery.sticky.js?1754160003"></script>
+    <script src="/js/featherlight.min.js?1754160003"></script>
+    <script src="/js/highlight.pack.js?1754160003"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1754146101"></script>
-    <script src="/js/learn.js?1754146101"></script>
-    <script src="/js/hugo-learn.js?1754146101"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1754160003"></script>
+    <script src="/js/learn.js?1754160003"></script>
+    <script src="/js/hugo-learn.js?1754160003"></script>
 
-    <link href="/mermaid/mermaid.css?1754146101" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1754146101"></script>
+    <link href="/mermaid/mermaid.css?1754160003" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1754160003"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

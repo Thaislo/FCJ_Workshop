@@ -6,7 +6,7 @@ pre : " <b> 4. </b> "
 ---
 
 ### Overview
-![](/images/4.transforming/0.png)
+![](../images/4.transforming/0.png)
 
 ### Introduction to AWS Glue Studio
 **AWS Glue Studio** is a graphical interface that makes it easy to create, run, and monitor ETL jobs in AWS Glue. You can visualize your data transformation processes, and AWS Glue Studio will generate Apache Spark code for you, allowing you to run it seamlessly on AWS Glue’s serverless Apache Spark-based ETL engine.

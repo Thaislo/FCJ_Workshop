@@ -13,4 +13,4 @@ pre : " <b> 6.3 </b> "
   - You have the option to perform additional data preparation steps here before visualizing the data.
 - **Save and Start Visualizing**:
   - In the top-right corner of the screen, click **public & visualize** to save changes and start visualizing the data in QuickSight.
-![](/images/6.visualize/12.png)
+![](../../images/6.visualize/12.png)

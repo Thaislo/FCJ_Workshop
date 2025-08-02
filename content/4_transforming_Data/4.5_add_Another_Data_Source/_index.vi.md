@@ -13,11 +13,11 @@ pre: " <b> 4.5 </b> "
   - **Database** – `nyctaxi_db`
   - **Table** – `raw_taxi_zone_lookup`
 
-![](/images/4.transforming/17.png)
+![](../../images/4.transforming/17.png)
 
 Nhớ lưu lại tác vụ của bạn.
 
-![](/images/4.transforming/18.png)
+![](../../images/4.transforming/18.png)
 
 #### Chỉnh sửa tên cột cho bảng tra cứu khu vực đón Taxi
 - Đảm bảo rằng nút **Amazon S3 - Pickup Zone Lookup** đang được chọn.
@@ -30,8 +30,8 @@ Nhớ lưu lại tác vụ của bạn.
     - `zone` thành `pu_zone`
     - `service_zone` thành `pu_service_zone`
 
-![](/images/4.transforming/19.png)
+![](../../images/4.transforming/19.png)
 
 - Nhớ lưu lại tác vụ của bạn.
 
-![](/images/4.transforming/20.png)
+![](../../images/4.transforming/20.png)

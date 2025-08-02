@@ -9,7 +9,7 @@ pre: " <b> 4.1 </b> "
 - Trong thanh điều hướng bên trái, nhấn vào **ETL jobs**.
 - Trên trang **AWS Glue Studio**, nhấn vào **Visual ETL**.
 
-![](/images/4.transforming/1.png)
+![](../../images/4.transforming/1.png)
 
 - Tại trang trình chỉnh sửa của Glue Studio, chuyển sang tab **Job details** và cấu hình các thông tin sau:
   - **Name** – `Transform NYC Taxi Trip Data`
@@ -17,12 +17,12 @@ pre: " <b> 4.1 </b> "
   - **Job bookmark** – `Disable`
   - **Number of retries** – `0`
 
-![](/images/4.transforming/2.png)  
-![](/images/4.transforming/3.png)
+![](../../images/4.transforming/2.png)  
+![](../../images/4.transforming/3.png)
 
 {{% notice info %}}
 **Job bookmark** là một tính năng của AWS Glue giúp lưu trạng thái của dữ liệu đã xử lý, nhằm tránh xử lý lại dữ liệu cũ. Khi kích hoạt, tính năng này cho phép tác vụ chỉ xử lý dữ liệu mới mỗi khi chạy lại theo lịch trình định sẵn.
 {{% /notice %}}
 
 - Nhấn **Save**. Quay lại tab **Visual**.
-![](/images/4.transforming/4.png)
+![](../../images/4.transforming/4.png)

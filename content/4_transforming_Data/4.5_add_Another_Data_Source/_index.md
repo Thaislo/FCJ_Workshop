@@ -13,11 +13,11 @@ pre : " <b> 4.5 </b> "
   - **Database** – `nyctaxi_db`
   - **Table** – `raw_taxi_zone_lookup`
 
-![](/images/4.transforming/17.png)
+![](../../images/4.transforming/17.png)
 
 Remember to save your job.
 
-![](/images/4.transforming/18.png)
+![](../../images/4.transforming/18.png)
 
 #### Edit Column Names for Pickup Taxi Zone Lookup Table
 - Ensure the **Amazon S3 - Pickup Zone Lookup** node is selected.
@@ -30,8 +30,8 @@ Remember to save your job.
     - `zone` to `pu_zone`
     - `service_zone` to `pu_service_zone`
 
-![](/images/4.transforming/19.png)
+![](../../images/4.transforming/19.png)
 
 - Remember to save your job.
 
-![](/images/4.transforming/20.png)
+![](../../images/4.transforming/20.png)

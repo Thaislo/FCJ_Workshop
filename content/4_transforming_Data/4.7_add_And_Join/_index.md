@@ -11,9 +11,9 @@ pre : " <b> 4.7 </b> "
   - **Name** – `Dropoff Zone Lookup`
   - **Database** – `nyctaxi_db`
   - **Table** – `raw_taxi_zone_lookup`
-![](/images/4.transforming/23.png)
+![](../../images/4.transforming/23.png)
 - Remember to save your job.
-![](/images/4.transforming/24.png)
+![](../../images/4.transforming/24.png)
 #### Edit Column Names for Drop-off Taxi Zone Lookup Table
 - Ensure that the **Amazon S3 - Dropoff Zone Lookup** node is selected.
 - Click on the **Transform** icon and select **Change Schema**.
@@ -24,9 +24,9 @@ pre : " <b> 4.7 </b> "
     - `borough` to `do_borough`
     - `zone` to `do_zone`
     - `service_zone` to `do_service_zone`
-![](/images/4.transforming/25.png)
+![](../../images/4.transforming/25.png)
 - Remember to save your job.
-![](/images/4.transforming/26.png)
+![](../../images/4.transforming/26.png)
 #### Join Yellow Trips Data with Drop-off Zone Lookup Data
 - Click on the **Transform** icon and select **Join**.
 - Specify the following:
@@ -37,4 +37,4 @@ pre : " <b> 4.7 </b> "
   - Under **Join conditions**, select the following keys:
     - `Change Schema - Dropoff Zone Lookup` – `do_location_id`
     - `Filter - Yellow Trip Data + Pickup Zone Lookup` – `pulocationid`
-![](/images/4.transforming/27.png)
+![](../../images/4.transforming/27.png)

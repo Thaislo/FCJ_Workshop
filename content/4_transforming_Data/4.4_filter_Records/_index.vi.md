@@ -10,17 +10,17 @@ Lọc các bản ghi để loại bỏ các mục có giá trị **Pickup DateTi
 {{%/notice%}}
 
 - Nhấn vào tab **Transform** và chọn **Filter**.
-![](/images/4.transforming/13.png)
+![](../../images/4.transforming/13.png)
 
 - Cấu hình các thông tin sau:
   - **Name** – `Filter - Yellow Trip Data`
   - **Filter condition** – `tpep_pickup_datetime` / `matches` / `^2020-1`
-![](/images/4.transforming/14.png)
+![](../../images/4.transforming/14.png)
 
 - Nhớ lưu lại tác vụ của bạn.
-![](/images/4.transforming/15.png)
+![](../../images/4.transforming/15.png)
 
 #### Xem lại đoạn mã được tạo tự động
 - Chuyển sang tab **Script**.
 - Quan sát đoạn mã được **Glue Studio** tạo tự động.
-![](/images/4.transforming/16.png)
+![](../../images/4.transforming/16.png)

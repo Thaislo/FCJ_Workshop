@@ -16,4 +16,4 @@ pre: " <b> 6.3 </b> "
 
 - **Lưu và bắt đầu trực quan hóa**:
   - Ở góc trên bên phải màn hình, nhấn **publish & visualize** để lưu thay đổi và bắt đầu trực quan hóa dữ liệu trong QuickSight.
-![](/images/6.visualize/12.png)
+![](../../images/6.visualize/12.png)

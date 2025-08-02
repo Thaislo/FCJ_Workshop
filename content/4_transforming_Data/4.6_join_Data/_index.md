@@ -15,6 +15,6 @@ pre : " <b> 4.6 </b> "
   - Under **Join conditions**, select the following keys:
     - `Change Schema - Pickup Zone Lookup` – `pu_location_id`
     - `Filter - Yellow Trip Data` – `pulocationid`
-![](/images/4.transforming/21.png)
+![](../../images/4.transforming/21.png)
 - Remember to save your job.
-![](/images/4.transforming/22.png)
+![](../../images/4.transforming/22.png)

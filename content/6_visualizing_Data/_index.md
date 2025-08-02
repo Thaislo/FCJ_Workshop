@@ -8,7 +8,7 @@ pre : " <b> 6. </b> "
 **Data visualization** presents data in graphical form, making it easier to understand and absorb. It allows users to gain better insights from the data to make informed decisions.
 
 We will access the enriched data, which is currently stored in **Amazon S3**, and then visualize this data in **Amazon QuickSight**.
-![](/images/6.visualize/0.png)
+![](../images/6.visualize/0.png)
 ### Introduction to Amazon QuickSight
 **Amazon QuickSight** is a cloud-native, scalable, serverless, embeddable **Business Intelligence (BI)** service powered by **Machine Learning (ML)**. QuickSight allows you to easily create and publish interactive BI dashboards with insights powered by Machine Learning.
 

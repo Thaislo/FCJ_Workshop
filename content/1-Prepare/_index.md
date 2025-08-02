@@ -18,5 +18,5 @@ We will begin by setting up the necessary resources for this workshop. We will c
 - Check the box **I Acknowledge that AWS CloudFormation might create IAM resources with custom names**.
 - Click **Submit**.
 - Wait for the resources to be provisioned.
-![](/images/1.prepare/001-prepare.png)
-![](/images/1.prepare/002-prepare.png)
+![](../images/1.prepare/001-prepare.png)
+![](../images/1.prepare/002-prepare.png)

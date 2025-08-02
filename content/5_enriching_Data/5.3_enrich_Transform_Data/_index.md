@@ -55,7 +55,7 @@ SELECT CASE vendor_id
 FROM   yellow_tripdata;
 {{< /highlight >}}
 - Select **Preview table** to check the enriched data in the **view v_yellow_tripdata** on Athena.
-![](/images/5.enriching/12.png)
+![](../../images/5.enriching/12.png)
 - Run the following query to retrieve detailed information:
 {{< highlight sql >}}
 SELECT vendor_name "Vendor",
@@ -75,4 +75,4 @@ GROUP BY vendor_name,
          payment_type
 ORDER BY 1, 2, 3;
 {{< /highlight >}}
-![](/images/5.enriching/13.png)
+![](../../images/5.enriching/13.png)

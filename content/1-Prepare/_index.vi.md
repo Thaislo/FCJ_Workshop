@@ -18,5 +18,5 @@ Chúng ta sẽ bắt đầu bằng cách thiết lập các tài nguyên cần t
 - Nhấn **Submit**.
 - Chờ quá trình khởi tạo tài nguyên hoàn tất.
 
-![](/images/1.prepare/001-prepare.png)  
-![](/images/1.prepare/002-prepare.png)
+![](../images/1.prepare/001-prepare.png)  
+![](../images/1.prepare/002-prepare.png)

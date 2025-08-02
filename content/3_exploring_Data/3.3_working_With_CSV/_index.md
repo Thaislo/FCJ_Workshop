@@ -12,27 +12,27 @@ CSV files sometimes have quotes surrounding the data values intended for each co
 - On the **Tables** screen, click the `raw_taxi_zone_lookup` table.
 - Click **Actions**, then select **Edit table**.
 
-![](/images/3.exploring/9.png)
+![](../../images/3.exploring/9.png)
 
 - Update the **Serialization lib** with `org.apache.hadoop.hive.serde2.OpenCSVSerde`.
 
-![](/images/3.exploring/10.png)
+![](../../images/3.exploring/10.png)
 
 - Remove the existing **Serde** parameters, and then add the following parameters:
   - `escapeChar`, enter a backslash `\`
   - `quoteChar`, enter a double quote `"`
   - `separatorChar`, enter a comma `,`
 
-![](/images/3.exploring/11.png)
+![](../../images/3.exploring/11.png)
 
 - Click **Save**.
 
-![](/images/3.exploring/12.png)
+![](../../images/3.exploring/12.png)
 
 - Return to the **Athena console**.
 - In the **Query editor** page, click the action menu icon ⋮ next to the `raw_taxi_zone_lookup` table, and click **Preview table**.
 
-![](/images/3.exploring/13.png)
+![](../../images/3.exploring/13.png)
 
 
 {{% notice note%}}

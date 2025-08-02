@@ -8,7 +8,7 @@ pre : " <b> 3. </b> "
 ### Overview
 In this exercise, we will use **Amazon Athena** to explore the data and identify potential data quality issues. We will also learn how to update table properties in the **AWS Glue Catalog**.
 
-![](/images/3.exploring/0.png)
+![](../images/3.exploring/0.png)
 
 ### Introduction to Amazon Athena
 **Amazon Athena** is an interactive query service that makes it easy to analyze data in **Amazon S3** using standard SQL. Athena is a serverless service, meaning there’s no infrastructure to manage, and you can start analyzing data right away. You don’t even need to load your data into Athena, as it works directly with data stored in S3.
