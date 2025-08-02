@@ -17,10 +17,10 @@ pre: " <b> 4.8 </b> "
   - Xoá các **Source keys** sau:
     - `pulocationid`
     - `dolocationid`
-![](../../images/4.transforming/29.png)
+![](../../../images/4.transforming/29.png)
 
 - Nhớ lưu lại tác vụ của bạn.
-![](../../images/4.transforming/30.png)
+![](../../../images/4.transforming/30.png)
 
 #### Lưu dữ liệu đã biến đổi vào Amazon S3
 - Nhấn vào tab **Target** và chọn **Amazon S3**.
@@ -30,7 +30,7 @@ pre: " <b> 4.8 </b> "
     - **Format** – `Parquet`
     - **Compression Type** – `Snappy`
     - **S3 Target Location** – `s3://serverlessanalytics-[your-account-id]-transformed/nyc-taxi/yellow-tripdata/`
-![](../../images/4.transforming/31.png)
+![](../../../images/4.transforming/31.png)
 
 - Nhớ lưu lại tác vụ của bạn.
-![](../../images/4.transforming/32.png)
+![](../../../images/4.transforming/32.png)

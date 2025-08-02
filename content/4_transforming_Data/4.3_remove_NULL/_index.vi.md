@@ -6,7 +6,7 @@ pre: " <b> 4.3 </b> "
 ---
 
 - Nhấn vào tab **Transform** và chọn **Custom transform**.
-![](../../images/4.transforming/9.png)
+![](../../../images/4.transforming/9.png)
 
 - Trong phần **Transform – Custom code**, cấu hình như sau:
   - **Name** – `Remove Records with NULL`
@@ -19,13 +19,13 @@ def MyTransform(glueContext, dfc) -> DynamicFrameCollection:
     return DynamicFrameCollection({"results": results}, glueContext)
 {{< /highlight >}}
 
-![](../../images/4.transforming/10.png)
+![](../../../images/4.transforming/10.png)
 
 - Nhấn vào tab **Transform** và chọn **SelectFromCollection**.
 - Trong phần **Transform – SelectFromCollection**, cấu hình như sau:
   - **Name** – `SelectFromCollection`
   - **Frame index** – `0`
-![](../../images/4.transforming/11.png)
+![](../../../images/4.transforming/11.png)
 
 Hãy nhớ lưu lại tác vụ của bạn.
-![](../../images/4.transforming/12.png)
+![](../../../images/4.transforming/12.png)

@@ -57,7 +57,7 @@ FROM   yellow_tripdata;
 {{< /highlight >}}
 
 - Chọn **Preview table** để kiểm tra dữ liệu đã được làm giàu trong **view v_yellow_tripdata** trên Athena.
-![](../../images/5.enriching/12.png)
+![](../../../images/5.enriching/12.png)
 
 - Chạy truy vấn sau để truy xuất thông tin chi tiết:
 
@@ -79,4 +79,4 @@ GROUP BY vendor_name,
          payment_type
 ORDER BY 1, 2, 3;
 {{< /highlight >}}
-![](../../images/5.enriching/13.png)
+![](../../../images/5.enriching/13.png)

@@ -9,7 +9,7 @@ pre: " <b> 6. </b> "
 **Trực quan hóa dữ liệu** trình bày dữ liệu dưới dạng đồ họa, giúp việc hiểu và tiếp thu thông tin dễ dàng hơn. Nó cho phép người dùng rút ra những hiểu biết sâu sắc hơn từ dữ liệu để đưa ra các quyết định sáng suốt.
 
 Chúng ta sẽ truy cập dữ liệu đã được làm giàu, hiện đang lưu trữ trong **Amazon S3**, và sau đó trực quan hóa dữ liệu này bằng **Amazon QuickSight**.
-![](../images/6.visualize/0.png)
+![](../../images/6.visualize/0.png)
 
 ### Giới thiệu về Amazon QuickSight
 **Amazon QuickSight** là dịch vụ **Business Intelligence (BI)** có khả năng mở rộng, gốc đám mây, không máy chủ và có thể nhúng, được hỗ trợ bởi **Machine Learning (ML)**. QuickSight cho phép bạn dễ dàng tạo và xuất bản các bảng điều khiển BI tương tác với những hiểu biết được hỗ trợ bởi Machine Learning.

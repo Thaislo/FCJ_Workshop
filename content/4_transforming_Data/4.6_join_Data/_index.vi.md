@@ -16,7 +16,7 @@ pre: " <b> 4.6 </b> "
     - `Change Schema - Pickup Zone Lookup` – `pu_location_id`
     - `Filter - Yellow Trip Data` – `pulocationid`
 
-![](../../images/4.transforming/21.png)
+![](../../../images/4.transforming/21.png)
 
 - Nhớ lưu lại tác vụ của bạn.
-![](../../images/4.transforming/22.png)
+![](../../../images/4.transforming/22.png)
