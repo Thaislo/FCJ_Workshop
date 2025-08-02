@@ -9,7 +9,7 @@ chapter: false
 ### Tổng quan
 Workshop này được thiết kế để hướng dẫn bạn cách sử dụng các dịch vụ serverless của AWS để xây dựng một kiến trúc hồ dữ liệu hiện đại, không máy chủ, và gốc đám mây, sẵn sàng cho tương lai. Chúng ta sẽ sử dụng AWS Glue để xử lý ETL và quản lý danh mục dữ liệu, Amazon S3 để lưu trữ hồ dữ liệu, Amazon Athena để truy vấn dữ liệu, và Amazon QuickSight để trực quan hóa dữ liệu.
 
-![ConnectPrivate](../images/0-solution-diagram.png) 
+![ConnectPrivate](images/0-solution-diagram.png) 
 
 ### Nội dung
 1. [Chuẩn bị](1-Prepare/)
